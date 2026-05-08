@@ -4,6 +4,8 @@ Process-bigraph wrapper for [BioNetGen](https://bionetgen.org/)/[NFSim](https://
 
 Wraps NFSim network-free stochastic simulation as composable process-bigraph Processes. Includes a flagella assembly model demonstrating hierarchical complexation of ~30 proteins through 7 sequential reactions (237 rules), with standalone and composed workflow configurations.
 
+**[View Interactive Demo Report](https://vivarium-collective.github.io/pbg-nfsim/)** — flagella assembly with standalone complexation, composed steady production, and fast production (3x rate) configurations, including Plotly time series and bigraph architecture diagrams.
+
 ## Installation
 
 ```bash
@@ -107,8 +109,6 @@ Composed Workflow:
 The NFSimProcess uses a **bridge pattern**: each step reads current state, updates seed species in the BNGL template via regex substitution, runs NFSim in a temporary directory, and returns delta changes. "Seedable" observables (simple molecules) carry over between steps; growing intermediates with counter states do not.
 
 ## Demo Report
-
-**[View the interactive report](https://vivarium-collective.github.io/pbg-nfsim/)**
 
 To regenerate locally:
 
