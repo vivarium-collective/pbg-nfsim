@@ -1,5 +1,6 @@
 name: flagella-assembly-with-viz
 description: "NFSim flagella-assembly demo with a wired Visualization Step. Each update produces a Plotly HTML figure of the running species trajectories, written to the 'viz_html' store."
+tags: [rule-based, kinetics, demo, visualization]
 
 requires:
   processes: [NFSimProcess, MonomerProduction, FlagellaAssemblyPlots, RAMEmitter]

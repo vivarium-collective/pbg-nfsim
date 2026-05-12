@@ -1,5 +1,6 @@
 name: flagella-assembly-demo
 description: "NFSim flagella-assembly demo: MonomerProduction feeds free monomers into a shared species store, NFSim runs network-free complexation rules each interval, RAMEmitter records the species map and global time."
+tags: [rule-based, kinetics, demo]
 
 requires:
   processes: [NFSimProcess, MonomerProduction, RAMEmitter]
