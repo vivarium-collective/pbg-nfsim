@@ -7,7 +7,7 @@ name = "pbg-nfsim"
 version = "0.1.0"
 description = "Process-bigraph wrapper for BioNetGen/NFSim rule-based simulations"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
     "process-bigraph>=0.0.10",
     "bigraph-schema",
